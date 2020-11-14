@@ -1,0 +1,40 @@
+Count ways to reach the n'th stair Submissions: 843   Accuracy: 39.34%   Max. Score: 50
+Problems
+There are m stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. Count the number of ways, the person can reach the top (order does matter).
+Note: The stair count starts from 0.
+
+Input Format:
+The first line contains an integer 'T' denoting the total number of test cases. In each test cases, an integer m will be given.
+
+Output Format:
+For each testcase, in a new line, print number of possible ways to reach mth stair. Answer your output % 109+7. That is mod it by 109+7.
+
+Your Task:
+This is a function problem. You need to complete the function countWays that takes m as argument and returns the number of ways you can reach the top.
+
+Expected Time Complexity : O(N)
+Expected Auxiliary Space: O(N)
+
+Constraints:
+1 <= T <= 105
+1 <= m <= 105
+
+Example:
+Input:
+3
+4
+10
+24
+Output:
+5
+89
+75025
+Explanation:
+Testcase 1: You have the following stairs: 0 1 2 3 4.
+The 0th stair can be reached in 1 way.
+The 1st stair can be reached in 1 way.
+The 2nd stair can be reached in 2 ways.
+The 3rd stair can be reached in 3 ways.
+The 4th stair can be reached in 5 ways.
+Testcase 2: The 10th stair can be reached in 89 number of ways.
+Testcase 3: The 24th stair can be reached in 75025 number of ways.
