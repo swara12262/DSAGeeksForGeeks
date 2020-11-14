@@ -1,0 +1,36 @@
+Unique Words from Two Sentences Submissions: 530   Accuracy: 56.97%   Max. Score: 50
+Problems
+Given two sentences A and B of lower case English letters, the task is to find all unique words.
+A word is unique if it appears exactly once in one of the sentences and does not appear in the other sentence. You need to return a list of all unique words in lexicographical order.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case contains sentence A and the second line contains sentence B.
+
+Output:
+For each testcase, in a new line, all unique words in lexicographical order get printed.
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function unique​Words() which takes the two strings A and B and returns a list of lixicographically sorted unique words.
+
+Expected Auxiliary Space: O(N + M)
+Expected Time Complexity: O(Nlog(N) + Mlog(M))
+
+Constraints:
+1 ≤ T ≤ 100
+0 ≤ N, M ≤ 103
+
+Example:
+Input:
+2
+I have a blue pen
+I got a red pen
+geeks for geeks
+gfg is known for its content
+
+Output:
+blue got have red
+content gfg is its known
+
+Explanation:
+Testcase 1: unique words are "have", "blue", "got", "red", return them in lexicographical order.
+Testcase 2: unique words are "gfg", "is", "known", "its" "content", return them in lexicographical order.
